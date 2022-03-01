@@ -57,3 +57,9 @@ $ export AWS_SECRET_ACCESS_KEY=YOUR_SECRET_KEY
 
 The given output values will be saved in a newly generated `terraform.tfstate` file which can be used as a [`terraform_remote_state`]( https://registry.terraform.io/providers/hashicorp/terraform/latest/docs/data-sources/remote_state) for [`application`](https://github.com/krasteki/terraform-data-sources-app.git)
 
+
+##### Destroy configuration
+
+**Note**: If the [application](https://github.com/krasteki/terraform-data-sources-app.git) workspace is deployed You must destroy it before remove the resources in this configuration. `terraform_remote_state` data source share data between the two workspaces and they need to be destroyed by the last created order.
+
+`$ terraform destroy`
