@@ -55,5 +55,5 @@ $ export AWS_SECRET_ACCESS_KEY=YOUR_SECRET_KEY
 
 ##### The given output values 
 
-The given output values will be saved in a newly generated `terraform.tfstate` file which can be used as a [`terraform_remote_state`]( https://registry.terraform.io/providers/hashicorp/terraform/latest/docs/data-sources/remote_state)` for [`application`](https://github.com/krasteki/terraform-data-sources-app.git)
+The given output values will be saved in a newly generated `terraform.tfstate` file which can be used as a [`terraform_remote_state`]( https://registry.terraform.io/providers/hashicorp/terraform/latest/docs/data-sources/remote_state) for [`application`](https://github.com/krasteki/terraform-data-sources-app.git)
 
