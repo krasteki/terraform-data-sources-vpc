@@ -11,8 +11,8 @@ on HashiCorp Learn.
 
 
 Data sources used:
-`[aws_availability_zones](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/availability_zones)` - part of the AWS provider, In this case, the `state` argument limits the availability zones to only those that are currently available.
-`[aws_region](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/region)` eu-west-2
+[`aws_availability_zones`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/availability_zones) - part of the AWS provider, In this case, the `state` argument limits the availability zones to only those that are currently available.
+[`aws_region`](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/region) eu-west-2
 
 
 
@@ -55,5 +55,5 @@ $ export AWS_SECRET_ACCESS_KEY=YOUR_SECRET_KEY
 
 ##### The given output values 
 
-The given output values will be saved in a newly generated `terraform.tfstate` file which can be used as a `[terraform_remote_state]( https://registry.terraform.io/providers/hashicorp/terraform/latest/docs/data-sources/remote_state)` for `[application](https://github.com/krasteki/terraform-data-sources-app.git)`
+The given output values will be saved in a newly generated `terraform.tfstate` file which can be used as a [`terraform_remote_state`]( https://registry.terraform.io/providers/hashicorp/terraform/latest/docs/data-sources/remote_state)` for [`application`](https://github.com/krasteki/terraform-data-sources-app.git)
 
